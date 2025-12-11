@@ -22,7 +22,7 @@ public class cadastroUnico {
         System.out.println("Digite sua altura (m): : ");
         double altura = entradaScanner.nextDouble();
 
-        entradaScanner.nextLine(); // limpa o buffer
+        entradaScanner.nextLine();
 
         System.out.print("Digite seu estado civil: ");
         String estadoCivil = entradaScanner.nextLine();
